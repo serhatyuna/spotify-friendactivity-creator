@@ -1,0 +1,52 @@
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  header {
+    text-align: center;
+  }
+
+  .inputs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      margin-right: 15px;
+
+      label {
+        margin-bottom: 3px;
+      }
+
+      input {
+        margin-bottom: 15px;
+      }
+
+      select {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  footer {
+    text-align: center;
+
+    a {
+      color: #ff5230;
+
+      &:hover {
+        color: #b71918;
+      }
+    }
+  }
+}

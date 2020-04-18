@@ -1,0 +1,90 @@
+.friendfeed {
+  background-color: #121212;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &-top {
+      font-size: 1.16em;
+      font-weight: bold;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #282828;
+    }
+
+    &-bottom {
+      display: flex;
+      align-items: center;
+      margin-top: 18px;
+
+      &-left {
+        width: 42px;
+        height: 42px;
+        margin-right: 12px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+
+      &-right {
+        color: #9a9a9a;
+
+        &-user {
+          font-size: 1em;
+          font-weight: 700;
+          margin-bottom: 4px;
+          display: flex;
+          color: #fff;
+
+          &-icon {
+            margin-left: auto;
+            width: 16px;
+            height: 16px;
+            color: #9a9a9a;
+          }
+        }
+
+        &-song,
+        &-artist,
+        &-album {
+          font-size: 0.82em;
+        }
+
+        &-song {
+          margin-bottom: 3px;
+        }
+
+        &-artist {
+          margin-bottom: 8px;
+        }
+
+        &-album {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-right: 24px;
+
+          &-icon {
+            margin-right: 6px;
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+}

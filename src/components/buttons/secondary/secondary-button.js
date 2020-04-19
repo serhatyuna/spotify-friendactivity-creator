@@ -2,9 +2,11 @@ import React from 'react'
 
 import './secondary-button.scss'
 
-function SecondaryButton({ children, ...props }) {
+function SecondaryButton({ children, className, ...props }) {
+  const classes = 'button button-secondary ' + className
+
   return (
-    <button {...props} className="button button-secondary">
+    <button className={classes} {...props}>
       {children}
     </button>
   )

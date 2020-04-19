@@ -1,0 +1,30 @@
+{
+  "tr": {
+    "translation": {
+      "title": "Spotify Arkadaş Aktivitesi Oluşturucuya Hoşgeldin 🥰",
+      "lang": "Dil",
+      "username": "Kullanıcı Adı",
+      "ppurl": "Profil Fotoğrafı URL",
+      "song": "Şarkı Adı",
+      "artist": "Sanatçı",
+      "album": "Albüm",
+      "takescreenshot": "Ekran Görüntüsü Al",
+      "reset": "Sıfırla",
+      "mobile-info": "Ekran görüntüsü alabilirsiniz"
+    }
+  },
+  "en": {
+    "translation": {
+      "title": "Welcome to Spotify Friend Feed Creator 🥰",
+      "lang": "Language",
+      "username": "Username",
+      "ppurl": "Profile Photo URL",
+      "song": "Song",
+      "artist": "Artist",
+      "album": "Album",
+      "takescreenshot": "Take Screenshot",
+      "reset": "Reset",
+      "mobile-info": "You can screenshot it whenever you want!"
+    }
+  }
+}

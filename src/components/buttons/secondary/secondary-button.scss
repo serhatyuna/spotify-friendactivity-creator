@@ -3,4 +3,9 @@
   border: 1px solid #adc8ff;
   font-size: 0.9em;
   color: #102693;
+  transition: 0.2s all ease-in-out;
+
+  &:hover {
+    background-color: #adc8ff;
+  }
 }

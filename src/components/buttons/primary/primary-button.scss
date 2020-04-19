@@ -1,11 +1,11 @@
 .button.button-primary {
-  background-color: #102693;
-  border: 1px solid #091a7a;
+  background-color: #1939b7;
+  border: 1px solid #102693;
   font-size: 0.9em;
-  color: #d6e4ff;
+  color: #fff;
   transition: 0.2s all ease-in-out;
 
   &:hover {
-    background-color: #091a7a;
+    background-color: #102693;
   }
 }

@@ -6,18 +6,24 @@
 
   header {
     text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .inputs {
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 600px;
+
+    @media screen and (max-width: 500px) {
+      margin-bottom: 0px;
+    }
 
     .text-input-container,
     .select-input-container {
@@ -40,6 +46,17 @@
 
     .buttons {
       margin-top: 8px;
+      display: flex;
+
+      @media screen and (max-width: 500px) {
+        display: block;
+
+        .button-secondary {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
 
       button:nth-of-type(1) {
         margin-right: 8px;
@@ -47,8 +64,15 @@
     }
   }
 
+  .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   footer {
     text-align: center;
+    font-size: 0.9em;
 
     a {
       color: #ff5230;
@@ -57,5 +81,25 @@
         color: #b71918;
       }
     }
+  }
+}
+
+.hide-on-mobile {
+  display: block;
+  visibility: visible;
+
+  @media screen and (max-width: 500px) {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.show-on-mobile {
+  display: none;
+  visibility: hidden;
+
+  @media screen and (max-width: 500px) {
+    display: block;
+    visibility: visible;
   }
 }

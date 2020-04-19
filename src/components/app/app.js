@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import FriendFeed from '../friendfeed/'
 import ScreenCapture from '../screencapture'
 import { TextInput, SelectInput } from '../inputs'
+import { PrimaryButton, SecondaryButton } from '../buttons'
 
 import './app.scss'
 
@@ -79,7 +80,8 @@ function App() {
             <TextInput placeholder="Aerosmith" onChange={onChangeAlbum} value={album}>
               <label>Album</label>
             </TextInput>
-            <button onClick={onStartCapture}>Take Screenshot</button>
+            <PrimaryButton onClick={onStartCapture}>Take Screenshot</PrimaryButton>
+            <SecondaryButton>Clear</SecondaryButton>
             <img src={screenCapture} alt="" />
           </div>
           <FriendFeed payload={{ lang, name, photo, song, artist, album }} />

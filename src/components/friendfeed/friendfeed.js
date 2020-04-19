@@ -24,7 +24,7 @@ function FriendFeed({ payload, ...props }) {
           </div>
           <div className="friendfeed-content-bottom-right">
             <div className="friendfeed-content-bottom-right-user">
-              <div>{content.name}</div>
+              <div>{addDots(content.name, 14)}</div>
               <IconVolume
                 width="16"
                 height="16"

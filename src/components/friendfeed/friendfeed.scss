@@ -50,6 +50,10 @@
           display: flex;
           color: #fff;
 
+          div {
+            margin-right: 10px;
+          }
+
           &-icon {
             margin-left: auto;
             width: 16px;
@@ -74,7 +78,6 @@
 
         &-album {
           display: flex;
-          justify-content: center;
           align-items: center;
           padding-right: 24px;
 

@@ -6,7 +6,7 @@ function SelectInput({ children, ...props }) {
   const otherChildren = children.filter((c) => c.type !== 'option')
 
   return (
-    <div>
+    <div className="select-input-container">
       {otherChildren}
       <select {...props}>{options}</select>
     </div>

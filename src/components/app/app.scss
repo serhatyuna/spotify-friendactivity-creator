@@ -19,7 +19,8 @@
     align-items: center;
     width: 600px;
 
-    div {
+    .text-input-container,
+    .select-input-container {
       display: flex;
       flex-direction: column;
       margin-right: 15px;
@@ -34,6 +35,14 @@
 
       select {
         margin-bottom: 15px;
+      }
+    }
+
+    .buttons {
+      margin-top: 8px;
+
+      button:nth-of-type(1) {
+        margin-right: 8px;
       }
     }
   }

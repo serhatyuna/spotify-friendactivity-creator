@@ -3,7 +3,7 @@ import './text-input.scss'
 
 function TextInput({ children, ...props }) {
   return (
-    <div>
+    <div className="text-input-container">
       {children}
       <input type="text" {...props} />
     </div>

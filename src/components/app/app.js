@@ -80,8 +80,10 @@ function App() {
             <TextInput placeholder="Aerosmith" onChange={onChangeAlbum} value={album}>
               <label>Album</label>
             </TextInput>
-            <PrimaryButton onClick={onStartCapture}>Take Screenshot</PrimaryButton>
-            <SecondaryButton>Clear</SecondaryButton>
+            <div className="buttons">
+              <PrimaryButton onClick={onStartCapture}>Take Screenshot</PrimaryButton>
+              <SecondaryButton>Clear</SecondaryButton>
+            </div>
             <img src={screenCapture} alt="" />
           </div>
           <FriendFeed payload={{ lang, name, photo, song, artist, album }} />

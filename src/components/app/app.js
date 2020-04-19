@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import FriendFeed from '../friendfeed/'
+import FriendActivity from '../friendactivity/'
 import ScreenCapture from '../screencapture'
 import { TextInput, SelectInput } from '../inputs'
 import { PrimaryButton, SecondaryButton } from '../buttons'
@@ -119,7 +119,7 @@ function App() {
           <div className="result">
             <img src={screenCapture} alt="" />
           </div>
-          <FriendFeed payload={{ lang, name, photo, song, artist, album }} />
+          <FriendActivity payload={{ lang, name, photo, song, artist, album }} />
           <footer>
             <p>
               developed by <a href="https://github.com/serhatyuna">@serhatyuna</a>

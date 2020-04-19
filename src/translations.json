@@ -10,12 +10,13 @@
       "album": "Albüm",
       "takescreenshot": "Ekran Görüntüsü Al",
       "reset": "Sıfırla",
-      "mobile-info": "Ekran görüntüsü alabilirsiniz"
+      "mobile-info": "Ekran görüntüsü alabilirsiniz",
+      "activity-title": "Arkadaş Aktivitesi"
     }
   },
   "en": {
     "translation": {
-      "title": "Welcome to Spotify Friend Feed Creator 🥰",
+      "title": "Welcome to Spotify Friend Activity Creator 🥰",
       "lang": "Language",
       "username": "Username",
       "ppurl": "Profile Photo URL",
@@ -24,7 +25,8 @@
       "album": "Album",
       "takescreenshot": "Take Screenshot",
       "reset": "Reset",
-      "mobile-info": "You can screenshot it whenever you want!"
+      "mobile-info": "You can screenshot it whenever you want!",
+      "activity-title": "Friend Activity"
     }
   }
 }

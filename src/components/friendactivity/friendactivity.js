@@ -35,7 +35,7 @@ function FriendActivity({ payload, ...props }) {
               />
             </div>
             <div className="friendactivity-content-bottom-right-song">
-              {addDots(content.song, 18)}
+              {addDots(content.song, 20)}
             </div>
             <div className="friendactivity-content-bottom-right-artist">
               {addDots(content.artist, 18)}
@@ -45,7 +45,7 @@ function FriendActivity({ payload, ...props }) {
                 <IconDisc width="16" height="16" stroke="#9a9a9a" />
               </div>
               <div className="friendactivity-content-bottom-right-album-name">
-                <span>{addDots(content.album, 12)}</span>
+                <span>{addDots(content.album, 13)}</span>
               </div>
             </div>
           </div>

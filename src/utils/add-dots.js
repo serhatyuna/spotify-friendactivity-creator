@@ -1,7 +1,7 @@
 function addDots(string, limit) {
   if (!string) return ''
 
-  const dots = '...'
+  const dots = '…'
   if (string.length > limit) {
     string = string.substring(0, limit) + dots
   }

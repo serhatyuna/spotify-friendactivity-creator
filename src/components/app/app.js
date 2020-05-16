@@ -8,10 +8,16 @@ import { useTranslation } from 'react-i18next'
 import './app.scss'
 
 function App() {
+  const browserLanguage = navigator.language || navigator.userLanguage
+  let defaultLang = 'en'
+  if (browserLanguage.substring(0, 2) === 'tr') {
+    defaultLang = 'tr'
+  }
+
   const { t, i18n } = useTranslation()
 
   const initialState = {
-    lang: 'tr',
+    lang: defaultLang,
     name: 'serhatyuna',
     photo:
       'https://profile-images.scdn.co/images/userprofile/default/4a35afcfb34fa7b4c14c55683cda8bf0e81960bc',

@@ -20,7 +20,7 @@ function App() {
     lang: defaultLang,
     name: 'serhatyuna',
     photo:
-      'https://profile-images.scdn.co/images/userprofile/default/4a35afcfb34fa7b4c14c55683cda8bf0e81960bc',
+      'https://i.scdn.co/image/ab6775700000ee85e5f7ef9aa5aef649cb55f861',
     song: 'Oh Slime - Live',
     artist: 'Fishmans',
     album: '98.12.28 男達の別れ (Live)',

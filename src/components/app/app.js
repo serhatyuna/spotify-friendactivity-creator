@@ -19,8 +19,7 @@ function App() {
   const initialState = {
     lang: defaultLang,
     name: 'serhatyuna',
-    photo:
-      'https://i.scdn.co/image/ab6775700000ee85e5f7ef9aa5aef649cb55f861',
+    photo: '',
     song: 'Oh Slime - Live',
     artist: 'Fishmans',
     album: '98.12.28 男達の別れ (Live)',
